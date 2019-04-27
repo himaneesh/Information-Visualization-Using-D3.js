@@ -1,0 +1,16 @@
+body {
+    font-family: Helvetica, Arial, sans-serif
+}
+h3 {
+    color: black;
+    padding: 5px;
+}
+svg {
+    border: black solid 1px;
+}
+.mainView {
+    display: flex;
+}
+.m-axis line{
+    stroke: black;
+}

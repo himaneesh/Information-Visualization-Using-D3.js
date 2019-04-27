@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#q1{
+ text-align: center;
+    padding-left: 5em;
+}
+g.tick text{
+    font-weight:bold;
+    fill:purple;
+    font-size: 10px;
+}
+svg {
+    border: 1px solid #000000;
+    margin-left: 20px;
+    text-align: center;
+
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.mainView {
+    display: flex;
+}
+
+.bar { fill: #2a5599; }
+body { font: 12px Arial;}
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.legend {
+    font-size: 16px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+.legend-rect{
+    margin-left: 10px;
+}
